@@ -38,5 +38,11 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #c47d7d;
+}
+
+.h-7{
+  color: rgb(170, 64, 130);
+  size-px	width: 25px;
+          height: 25px;
 }

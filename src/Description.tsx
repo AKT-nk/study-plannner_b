@@ -11,8 +11,7 @@ function Description() {
 
     return (
         <section>
-            <p>
-                {/* テキスト入力フィールド */}
+            <p>{/* テキスト入力フィールド */}
                 <input
                     type="text"
                     value={username} // 入力値はusernameの状態によって制御される
@@ -21,7 +20,7 @@ function Description() {
                     style={{ textAlign: 'center' }} // ← このインラインスタイルを追加してテキストを中央揃えにする
                 />
             </p>
-            <p> さん　こんにちは</p>
+            <p>さん</p>
         </section>
     );
 }
